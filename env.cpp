@@ -46,6 +46,7 @@ Type objective_function<Type>::operator() ()
   }
 
   REPORT(env_hat);
+  REPORT(Sigma_x.cov());
   ADREPORT(env_hat);
   
   return ff;

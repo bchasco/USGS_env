@@ -8,7 +8,7 @@ eLastYr <- 2100 #end year of the environmental data
 #Estimated (1 is estimate, 0 is don't estimate)
 fsd <- 0 #flag for estiamting the observation error for environmental covariates
 
-reCompile <- FALSE
+reCompile <- TRUE
 
 #marine variables
 myVars <- c(
